@@ -45,15 +45,15 @@ def base_func(loopname,filelist):
 
 	for file in filelist:
 		'''
-		do file op
-	
+		
+		核心代码复写
 		'''
 		image = cv2.read(file)
 
 
 
 if __name__ == '__main__':
-	
+
 	fileList = []
 	for root,dirs,files in os.walk('home/data'):
 		for file in files:
